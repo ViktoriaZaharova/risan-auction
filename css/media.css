@@ -1,0 +1,622 @@
+/*==========	Desktop First	==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1800px) {
+  .navbar-menu {
+    margin: 0 60px 0 auto;
+  }
+  .dropdown-user {
+    margin: 0 0 0 30px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .navbar-menu {
+    margin: 0 20px 0 auto;
+  }
+  .dropdown-user {
+    margin: 0 0 0 20px;
+  }
+  footer .nav-menu .nav-item {
+    margin: 0 30px 0 0;
+  }
+  .best-deal .link-next {
+    padding: 10px 20px;
+    height: 60px;
+  }
+  .best-deal .product-price {
+    font-size: 36px;
+  }
+  .best-deal .product-price sup {
+    font-size: 24px;
+  }
+  .best-deal__body {
+    padding: 40px 30px;
+  }
+  .best-deal__body .text-description {
+    font-size: 30px;
+  }
+  .best-deal__start {
+    padding: 30px;
+  }
+  .best-deal__start h3 {
+    font-size: 26px;
+  }
+  .best-deal__start h4 {
+    font-size: 28px;
+  }
+  .best-deal__start .box-text {
+    margin: 20px 0 0;
+  }
+  .best-deal__start .btn {
+    margin: 30px 0 0;
+  }
+  .dropdown-user .dropdown-toggle .svg-icon {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+  }
+  .dropdown-user .dropdown-toggle:after {
+    margin: 0 0 0 10px;
+    border-top-width: 8px;
+    border-left-width: 8px;
+    border-right-width: 8px;
+  }
+  header .container, .home .container, footer .container {
+    padding: 0 15px;
+  }
+  footer {
+    padding: 30px 0;
+  }
+  footer::before {
+    width: calc(100% - 30px);
+  }
+  footer .nav-menu .nav-item {
+    margin: 0 20px 0 0;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .navbar-toggler {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar-menu {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0;
+  }
+  .navbar-menu .nav-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin: 10px 0 10px;
+    text-align: center;
+  }
+  .navbar-menu .nav-menu .nav-item {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+  .navbar-menu .nav-menu .nav-item:last-child {
+    margin: 0;
+    width: 100%;
+  }
+  .navbar-menu .nav-menu .nav-link {
+    color: #333;
+    width: 100%;
+  }
+  header {
+    padding: 20px 0;
+    background: #F0F0F0;
+  }
+  header .logo {
+    margin: 0 auto 0 0;
+  }
+  header .navbar-toggler span {
+    background: #333;
+  }
+  .phone {
+    color: #333;
+  }
+  .dropdown-user .dropdown-toggle .svg-icon {
+    fill: #333;
+  }
+  .dropdown-user .dropdown-toggle::after {
+    border-top-color: #333;
+  }
+  .home-product {
+    padding: 385px 83px 50px;
+  }
+  h2, h1 {
+    font-size: 40px;
+  }
+  .h1 {
+    font-size: 80px;
+  }
+  .best-deal {
+    margin: 50px 0 0;
+  }
+  .best-deal .link-next svg {
+    width: 80px;
+  }
+  .home {
+    margin: 20px 0 70px;
+  }
+  .product-price {
+    font-size: 20px;
+  }
+  .product-price sup {
+    font-size: 14px;
+  }
+  .product-card h3 {
+    font-size: 20px;
+  }
+  .form-cabinet label {
+    max-width: 27%;
+  }
+  .admin-name, .admin-contacts__item {
+    font-size: 28px;
+  }
+  .admin-contacts__item {
+    margin: 0 0 10px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .navbar-toggler {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .home-product {
+    padding: 70px 30px 40px;
+  }
+  .home-product::before {
+    border-radius: 30px;
+    width: 100%;
+  }
+  .best-deal {
+    margin: 20px 0 0;
+  }
+  .best-deal .link-next {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 10px 0 0;
+  }
+  .best-deal__body .text-description {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  .best-deal__body .text-description sup {
+    font-size: 16px;
+  }
+  .best-deal .product-price {
+    font-size: 30px;
+  }
+  .best-deal .product-price sup {
+    font-size: 20px;
+  }
+  .slick-arrow {
+    width: 100px;
+    height: 60px;
+  }
+  .slider-nav .slick-prev {
+    margin: 0 20px 0 0;
+  }
+  .exclusive-slider {
+    width: calc(100% + 15px);
+  }
+  .stages-auction-col:nth-child(4):after {
+    width: 780px;
+    height: 75px;
+    bottom: -73px;
+  }
+  .mb-90 {
+    margin-bottom: 70px;
+  }
+  .lot-information {
+    padding: 10px;
+  }
+  .lot-information-item {
+    padding: 0 10px 0 0;
+  }
+  .lot-information-item:last-child {
+    padding: 0 0 0 10px;
+  }
+  .all-lots {
+    margin: 60px 0 40px;
+  }
+  .product-card h3 {
+    font-size: 18px;
+  }
+  .lot-information-item__icon {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    margin: 0 10px 0 0;
+  }
+  .status-on .lot-information-item__icon {
+    padding: 7px;
+  }
+  .participants-item .lot-information-item__icon {
+    width: 25px;
+    height: 25px;
+    min-width: 25px;
+  }
+  .product-card__footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .product-card-sizes {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .product-card-sizes__item {
+    width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0 0 10px;
+  }
+  .product-card-sizes__item:last-child {
+    padding: 0;
+    margin: 0;
+  }
+  .auction-start {
+    margin: 0 auto 15px;
+  }
+  .btn-toggle, .btn-link {
+    margin: 20px auto 0;
+  }
+  footer .nav-menu {
+    width: 100%;
+    margin: 10px auto 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .logo {
+    margin: 0 auto 0 0;
+  }
+  .archive-section {
+    margin: 0 0 40px;
+  }
+  .form-cabinet label {
+    max-width: 26%;
+  }
+  .my-auctions {
+    margin: 0 0 60px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .slider-nav {
+    margin: 20px auto 0;
+  }
+  .stages-auction-col:nth-child(3)::before, .stages-auction-col:nth-child(6)::before {
+    display: none;
+  }
+  .stages-auction-col:nth-child(4)::before {
+    display: block;
+  }
+  .stages-auction-col:nth-child(4)::after {
+    display: none;
+  }
+  .mb-90 {
+    margin-bottom: 50px;
+  }
+  .h2 {
+    font-size: 50px;
+  }
+  .mb-60 {
+    margin-bottom: 40px;
+  }
+  .cabinet-box {
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 0 30px;
+  }
+  .cabinet-box:last-child {
+    margin: 0;
+  }
+  .cabinet-box h3 {
+    font-size: 22px;
+    margin: 0 0 20px;
+  }
+  .cabinet-box .btn {
+    margin: 10px 0 0;
+  }
+  .admin-name, .admin-contacts__item {
+    font-size: 24px;
+  }
+  .admin-contacts {
+    margin: 10px 0;
+  }
+  .form-cabinet {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .form-cabinet label {
+    max-width: 49%;
+    margin: 0 0 10px;
+  }
+  .form-cabinet button.btn {
+    max-width: 49%;
+    margin: 0;
+    width: 100%;
+  }
+  .filter-products {
+    margin: 0 auto 20px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .phone {
+    font-size: 18px;
+  }
+  .h1 {
+    font-size: 60px;
+  }
+  .home-product .text-description {
+    font-size: 24px;
+    margin: 20px 0 30px;
+  }
+  .best-deal__start .box-text {
+    font-size: 20px;
+    max-width: 300px;
+  }
+  .stages-auction-col:nth-child(3)::before, .stages-auction-col:nth-child(6)::before {
+    display: block;
+  }
+  .stages-auction-col:nth-child(even)::before {
+    display: none;
+  }
+  .product-card {
+    padding: 20px 15px;
+    border-radius: 20px;
+  }
+  .nav-tabs {
+    font-size: 18px;
+  }
+  .nav-tabs .nav-item {
+    margin: 0 20px 0 0;
+  }
+  .nav-tabs .nav-link {
+    padding: 0 0 8px;
+  }
+  .nav-tabs .nav-link::before {
+    height: 4px;
+  }
+  footer .nav-menu {
+    font-size: 14px;
+  }
+  .mb-50 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .h1 {
+    font-size: 40px;
+  }
+  h2, h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .home-product {
+    padding: 30px 20px;
+  }
+  .home-product .text-description {
+    font-size: 20px;
+  }
+  .h2 {
+    font-size: 34px;
+  }
+  header .phone {
+    margin: 0 auto;
+  }
+  .header {
+    margin: 0 0 30px;
+  }
+  .btn-md {
+    font-size: 16px;
+    height: 50px;
+    padding: 5px 20px;
+  }
+  .best-deal {
+    border-radius: 20px;
+  }
+  .best-deal .link-next {
+    height: 50px;
+  }
+  .best-deal .text-description {
+    font-size: 20px;
+  }
+  .best-deal .text-description sup {
+    font-size: 14px;
+  }
+  .best-deal__body {
+    padding: 20px;
+  }
+  .best-deal .product-price {
+    font-size: 24px;
+  }
+  .best-deal .product-price sup {
+    font-size: 16px;
+  }
+  .best-deal__start {
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .best-deal__start h3 {
+    font-size: 22px;
+  }
+  .best-deal__start h4 {
+    font-size: 24px;
+  }
+  .best-deal__start .box-text {
+    font-size: 18px;
+    max-width: 250px;
+  }
+  .text-description {
+    font-size: 18px;
+  }
+  .slick-arrow {
+    width: 80px;
+    height: 50px;
+  }
+  .slider-nav .slick-prev {
+    margin: 0 20px 0 0;
+  }
+  .exclusive-slider {
+    width: 100%;
+  }
+  .exclusive-slider .product-card {
+    width: 100%;
+  }
+  .stages-auction-col::before {
+    display: none;
+  }
+  .stages-auction-col:nth-child(3)::before, .stages-auction-col:nth-child(6)::before {
+    display: none;
+  }
+  .mb-90 {
+    margin-bottom: 30px;
+  }
+  .stages-auction-info {
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .stages-auction {
+    padding: 60px 0 0;
+  }
+  .stages-auction h2 {
+    margin: 0 0 30px;
+  }
+  .tooltip-box {
+    padding: 10px;
+    min-width: 240px;
+  }
+  .tooltip-box h4 {
+    font-size: 16px;
+  }
+  .all-lots .text-description {
+    margin: 20px 0 0;
+  }
+  .all-lots .nav-tabs {
+    margin: 0 0 20px;
+  }
+  .mb-45 {
+    margin-bottom: 30px;
+  }
+  .coming-auction {
+    margin: 0 0 50px;
+  }
+  .stages-auction-info {
+    margin: 0 0 40px;
+  }
+  .nav-tabs .nav-item {
+    margin: 0 10px 10px 0;
+  }
+  .nav-tabs .nav-item:last-child {
+    margin: 0 0 10px;
+  }
+  footer .phone {
+    font-size: 15px;
+  }
+  footer .nav-menu {
+    font-size: 14px;
+  }
+  footer .nav-menu .nav-item {
+    width: 50%;
+    margin: 0 0 5px;
+  }
+  footer .nav-menu .nav-item:last-child {
+    margin: 0;
+  }
+  .mb-60 {
+    margin-bottom: 30px;
+  }
+  .admin-name, .admin-contacts__item {
+    font-size: 20px;
+  }
+  .form-cabinet label {
+    max-width: none;
+  }
+  .form-cabinet button.btn {
+    max-width: none;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .logo {
+    max-width: 160px;
+  }
+  .h2 {
+    font-size: 28px;
+  }
+  h2, h1 {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .product-card-sizes {
+    margin: 10px auto;
+    font-size: 14px;
+  }
+  .product-card-sizes sup {
+    font-size: 8px;
+  }
+  .product-card-sizes .product-price {
+    font-size: 16px;
+  }
+  .product-card-sizes .product-price sup {
+    font-size: 10px;
+  }
+  .tooltip-box {
+    min-width: 200px;
+    font-size: 12px;
+  }
+  .tooltip-box h3 {
+    font-size: 14px;
+  }
+  .slick-arrow {
+    padding: 10px 25px;
+    height: 40px;
+  }
+  .slick-arrow svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .tooltip-wrapper .tooltip-box {
+    left: auto;
+    right: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .logo {
+    max-width: 145px;
+  }
+}

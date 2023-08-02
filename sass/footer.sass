@@ -1,0 +1,47 @@
+@import "vars"
+
+footer
+	padding: 37px 0 59px
+	position: relative
+	z-index: 1
+	margin: 40px 0 0
+	&::before
+		content: ''
+		position: absolute
+		left: 50%
+		top: 0
+		transform: translate(-50%,0)
+		height: 1px
+		max-width: 1800px
+		width: calc(100% - 120px)
+		background: #FFF
+	.container
+		max-width: 1920px
+		padding: 0 60px
+	.phone
+		color: #fff
+		&:hover
+			color: $accent
+	.nav-menu
+		margin: 0 auto
+		font-weight: 400
+		.nav-item
+			margin: 0 60px 0 0
+			&:last-child
+				margin: 0		
+
+
+.footer
+	margin: 75px 0 0
+	&::before
+		background: #595959
+	.phone
+		color: #595959	
+		&:hover
+			color: #fff
+	.nav-menu
+		.nav-item
+			.nav-link
+				color: #595959		
+		
+
