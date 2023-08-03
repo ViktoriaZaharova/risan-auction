@@ -61,3 +61,15 @@ $(".countdown-time").countdowntimer({
 	displayFormat: "HMS",
 	// currentTime: true,
 });
+
+// password view
+$('.btn-view-password').on('click', function () {
+	if ($(this).siblings('.input-password').attr('type') === 'password') {
+		$(this).addClass('view');
+		$(this).siblings('.input-password').attr('type', 'text');
+	} else {
+		$(this).removeClass('view');
+		$(this).siblings('.input-password').attr('type', 'password');
+	}
+	return false;
+});

@@ -70,6 +70,9 @@ footer .nav-menu .nav-item:last-child {
 .modal-content .btn-group .btn:last-child {
   margin: 0;
 }
+.modal-content .link {
+  margin: 0 auto;
+}
 
 .modal-title {
   text-align: center;
@@ -188,6 +191,15 @@ footer .nav-menu .nav-item:last-child {
 }
 .modal-v2 .btn {
   margin: 0 auto;
+}
+.modal-v2 .form-code {
+  margin: 0;
+}
+.modal-v2 .form-code [type=submit] {
+  margin: 50px auto 0;
+}
+.modal-v2 .form-code .link {
+  margin: 23px auto 0;
 }
 
 #participationModal .modal-title {

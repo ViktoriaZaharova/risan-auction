@@ -196,7 +196,7 @@
 			&.active
 				&::before
 					left: -30px
-					right: auto		
+					right: auto
 
 	.displaySection::after
 		margin: 0 15px 5px
@@ -205,8 +205,19 @@
 		font-size: 24px
 
 	.numberDisplay, .displaySection
-		font-size: 50px					
-			
+		font-size: 50px
+
+	.entrance
+		.logo
+			margin: 0 0 40px
+		.home-product
+			&::before
+				width: 100%
+
+	.entrance-box
+		margin: 0 0 30px
+		h3
+			font-size: 26px
 
 @media only screen and (max-width: 1200px)
 	.navbar-toggler
@@ -328,7 +339,7 @@
 		margin: 0 0 60px
 
 	.auction-timer
-		margin: 30px 0 
+		margin: 30px 0
 		padding: 20px
 		border-radius: 20px
 
@@ -337,7 +348,11 @@
 
 	.product-wrapper-v2
 		max-width: 532px
-		margin: 0 auto			
+		margin: 0 auto
+
+	.entrance-profile
+		margin: 30px 0 0
+		font-size: 16px	
 
 @media only screen and (max-width: 992px)
 	.slider-nav
@@ -450,15 +465,35 @@
 	.or
 		font-size: 20px
 		margin: 20px auto
-		
+
 	.action-rates-box
-		max-width: none		
+		max-width: none
 
 	.periodDisplay
 		font-size: 18px
 
 	.numberDisplay, .displaySection
-		font-size: 40px			
+		font-size: 40px
+
+	.entrance
+		.home-product
+			padding: 40px
+			.text-description
+				margin: 20px 0 30px
+
+	.entrance-box
+		h3
+			font-size: 22px
+			margin: 0 0 24px
+
+	.form-entrance input
+		height: 50px
+		font-size: 16px
+		padding: 0 20px
+
+	label
+		margin: 0 0 16px	
+
 
 @media only screen and (max-width: 576px)
 	.h1
@@ -650,11 +685,11 @@
 			margin: 16px auto 0
 
 	.form-code [type=submit]
-		margin: 20px auto 0		
+		margin: 20px auto 0
 
 	.modal-icon
 		width: 60px
-		height: 60px	
+		height: 60px
 
 	.numberDisplay, .displaySection
 		font-size: 24px
@@ -671,12 +706,12 @@
 
 	.rates
 		border-radius: 20px
-		flex-wrap: wrap			
+		flex-wrap: wrap
 
 	.product-wrapper-v2
 		padding: 0
 
-		.product-card-slider		
+		.product-card-slider
 			padding: 20px 10px
 
 	.displaySection::after
@@ -689,7 +724,7 @@
 		font-size: 12px
 
 	.rates
-		margin: 0 0 30px								
+		margin: 0 0 30px
 
 	.rates-item p strong
 		display: block
@@ -705,7 +740,7 @@
 	.rates-wins h3
 		margin: 0
 		max-width: none
-		width: 100%			
+		width: 100%
 
 @media only screen and (max-width: 480px)
 	.logo
@@ -744,9 +779,9 @@
 				height: 100%
 
 	.prices-wrapper-item
-		width: 100%		
+		width: 100%
 		padding: 0
-		border: none	
+		border: none
 
 	.prices-wrapper
 		flex-wrap: wrap

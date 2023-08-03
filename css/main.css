@@ -1093,3 +1093,81 @@
   font-size: 24px;
   font-weight: bold;
 }
+
+.entrance {
+  margin: 120px 0;
+}
+.entrance .logo {
+  margin: 0 0 114px;
+}
+.entrance .container {
+  padding: 0 15px;
+  max-width: 1350px;
+}
+.entrance .home-product {
+  padding: 169px 98px 120px;
+}
+.entrance .home-product::before {
+  width: 1289px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0))), -webkit-gradient(linear, left top, right top, from(#000), to(rgba(0, 0, 0, 0))), url("../img/entrance.png"), lightgray 50%/cover no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%), url("../img/entrance.png"), lightgray 50%/cover no-repeat;
+  background-size: cover;
+}
+.entrance .home-product .text-description {
+  margin: 16px 0 84px;
+  max-width: 360px;
+}
+.entrance .home-product .btn {
+  margin: 0 0 38px;
+  max-width: 395px;
+  width: 100%;
+}
+.entrance .home-product .btn:last-child {
+  margin: 0;
+}
+
+.entrance-box h3 {
+  margin: 0 0 37px;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.form-entrance input {
+  height: 65px;
+  padding: 0 40px;
+  font-size: 20px;
+}
+.form-entrance .btn-group {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.form-entrance [type=submit] {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 30px;
+}
+.form-entrance .btn-group > .btn-group:not(:last-child) > .btn, .form-entrance .btn-group > .btn.dropdown-toggle-split:first-child, .form-entrance .btn-group > .btn:not(:last-child):not(.dropdown-toggle), .form-entrance .btn-group > .btn-group:not(:first-child), .form-entrance .btn-group > :not(.btn-check:first-child) + .btn {
+  border-radius: 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.btn-view-password {
+  cursor: pointer;
+}
+
+.forgot-password {
+  margin: 20px 0 0;
+}
+
+.entrance-profile {
+  margin: 64px 0 0;
+  font-size: 20px;
+}

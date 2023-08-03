@@ -698,7 +698,7 @@
 	position: relative
 	z-index: 1
 	flex: 1
-	padding: 40px 50px 65px	
+	padding: 40px 50px 65px
 	font-size: 24px
 	display: flex
 	flex-direction: column
@@ -708,7 +708,7 @@
 			font-weight: bold
 			margin: 0 0 0 10px
 	sup
-		font-size: 16px	
+		font-size: 16px
 	p
 		margin: 0 0 20px
 		&:last-child
@@ -730,13 +730,13 @@
 			&::before
 				clip-path: polygon(100% 0, 100% 100%, 0 50%)
 				left: -40px
-				right: auto		
+				right: auto
 
 .rates-wins
 	h3
 		width: fit-content
 		margin: 0 0 0 40px
-		max-width: 170px				
+		max-width: 170px
 
 .clear-participation
 	margin: 24px 0 0
@@ -753,8 +753,7 @@
 		&:first-child
 			.btn
 				padding: 0 50px
-		
-					
+
 	.btn
 		margin: 0 0 20px
 	.box-text
@@ -763,10 +762,66 @@
 		h4
 			font-size: 16px
 		&:last-child
-			margin: 0	
+			margin: 0
 
 .or
 	margin: 0 50px
 	font-size: 24px
-	font-weight: bold			
+	font-weight: bold
 
+// entrance page
+.entrance
+	margin: 120px 0
+	.logo
+		margin: 0 0 114px
+	.container
+		padding: 0 15px
+		max-width: 1350px
+	.home-product
+		padding: 169px 98px 120px
+		&::before
+			width: 1289px
+			background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(90deg, #000 0%, rgba(0, 0, 0, 0) 100%), url("../img/entrance.png"), lightgray 50% / cover no-repeat
+			background-size: cover
+		.text-description
+			margin: 16px 0 84px
+			max-width: 360px
+		.btn
+			margin: 0 0 38px
+			max-width: 395px
+			width: 100%
+			
+			&:last-child
+				margin: 0
+
+.entrance-box
+	h3
+		margin: 0 0 37px
+		font-size: 32px
+		font-weight: normal
+
+.form-entrance
+	input
+		height: 65px
+		padding: 0 40px
+		font-size: 20px
+	.btn-group
+		width: 100%
+		justify-content: space-between
+	[type="submit"]
+		width: fit-content
+		border-radius: 30px
+	.btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn.dropdown-toggle-split:first-child, .btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-group:not(:first-child), .btn-group > :not(.btn-check:first-child) + .btn
+		border-radius: 30px
+		width: fit-content
+		flex: none
+
+.btn-view-password
+	cursor: pointer
+
+.forgot-password
+	margin: 20px 0 0
+
+.entrance-profile
+	margin: 64px 0 0
+	font-size: 20px	

@@ -143,7 +143,8 @@ input:hover, input:focus, textarea:hover, textarea:focus, select:hover, select:f
 label {
   display: block;
   width: 100%;
-  margin: 0 0 13px;
+  position: relative;
+  margin: 0 0 24px;
 }
 label:last-child {
   margin: 0;
@@ -153,6 +154,30 @@ textarea {
   resize: none;
   padding: 12px 17px;
   height: 103px;
+}
+
+.input-icon {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 28px;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  fill: #595959;
+  width: 25px;
+  height: 19px;
+}
+.input-icon:hover {
+  fill: #E4370E;
 }
 
 button, .btn {
@@ -323,6 +348,27 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   border-radius: 20px;
 }
 
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.link svg {
+  width: 21px;
+  height: 23px;
+  margin: 0 0 0 20px;
+}
+
+a.color-grey {
+  color: #333;
+}
+a.color-grey:hover {
+  color: #E4370E;
+}
+
 strong, b {
   font-weight: bold;
   display: inline-block;
@@ -383,6 +429,15 @@ a.color-accent {
 }
 a.color-accent:hover {
   color: #333;
+}
+a.color-accent:hover svg {
+  fill: #333;
+}
+a.color-accent svg {
+  fill: #E4370E;
+  width: 21px;
+  height: 23px;
+  margin: 0 0 0 20px;
 }
 
 .d-inline {
