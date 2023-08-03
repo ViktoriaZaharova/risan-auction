@@ -700,6 +700,9 @@
 	flex: 1
 	padding: 40px 50px 65px	
 	font-size: 24px
+	display: flex
+	flex-direction: column
+	justify-content: center
 	p
 		strong
 			font-weight: bold
@@ -722,6 +725,18 @@
 			background: #fff
 			top: 0
 			right: -40px
+	&:last-child
+		&.active
+			&::before
+				clip-path: polygon(100% 0, 100% 100%, 0 50%)
+				left: -40px
+				right: auto		
+
+.rates-wins
+	h3
+		width: fit-content
+		margin: 0 0 0 40px
+		max-width: 170px				
 
 .clear-participation
 	margin: 24px 0 0
@@ -738,6 +753,8 @@
 		&:first-child
 			.btn
 				padding: 0 50px
+		
+					
 	.btn
 		margin: 0 0 20px
 	.box-text

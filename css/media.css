@@ -214,6 +214,10 @@
     right: -30px;
     width: 30px;
   }
+  .rates-item:last-child.active::before {
+    left: -30px;
+    right: auto;
+  }
   .displaySection::after {
     margin: 0 15px 5px;
   }
@@ -760,6 +764,11 @@
   }
   .auction-timer h3 svg {
     margin: 0 10px 0 0;
+  }
+  .rates-wins h3 {
+    margin: 0;
+    max-width: none;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 480px) {
