@@ -187,6 +187,7 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   text-align: center;
   padding: 7px 20px;
   font-size: 16px;
+  line-height: normal;
   font-weight: normal;
   height: 40px;
   border-radius: 20px;
@@ -304,6 +305,9 @@ button:hover, button:focus, .btn:hover, .btn:focus {
 .btn-accent:hover {
   color: #fff;
 }
+.btn-accent svg {
+  fill: #fff;
+}
 
 .btn-toggle, .btn-link {
   margin: 37px auto 0;
@@ -313,6 +317,10 @@ button:hover, button:focus, .btn:hover, .btn:focus {
   display: inline-block;
   width: 100%;
   height: 100%;
+}
+
+.btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn.dropdown-toggle-split:first-child, .btn-group > .btn:not(:last-child):not(.dropdown-toggle), .btn-group > .btn-group:not(:first-child), .btn-group > :not(.btn-check:first-child) + .btn {
+  border-radius: 20px;
 }
 
 strong, b {
@@ -368,6 +376,17 @@ h3 {
 
 .color-accent {
   color: #E4370E;
+}
+
+a.color-accent {
+  color: #E4370E;
+}
+a.color-accent:hover {
+  color: #333;
+}
+
+.d-inline {
+  display: inline;
 }
 
 .text-description {
@@ -489,16 +508,13 @@ h3 {
 .slider-nav .slick-prev {
   margin: 0 30px 0 0;
 }
-
-.slick-arrow {
+.slider-nav .slick-arrow {
   position: relative;
   bottom: 0;
   top: 0;
   left: 0;
   -webkit-transform: none;
           transform: none;
-  opacity: 1;
-  z-index: 1;
   padding: 10px;
   border-radius: 60px;
   background: #E4E4E4;
@@ -515,13 +531,43 @@ h3 {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.slick-arrow svg {
+.slider-nav .slick-arrow svg {
   width: 41px;
   height: 24px;
 }
-.slick-arrow:hover {
+.slider-nav .slick-arrow:hover {
   background: #E4370E;
   fill: #fff;
+}
+
+.slick-arrow {
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 41px;
+  height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 1;
+  z-index: 1;
+  padding: 0;
+  fill: #E4370E;
+  position: absolute;
+}
+
+.slick-prev {
+  left: -41px;
+}
+
+.slick-next {
+  right: -41px;
 }
 
 .animate-box {

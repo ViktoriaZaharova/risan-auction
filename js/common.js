@@ -25,6 +25,39 @@ $('.exclusive-slider').slick({
 	]
 });
 
+$('.advantages-slider').slick({
+	slidesToShow: 4,
+	prevArrow: '<button type="button" class="slick-prev"><svg class="svg-icon"><use xlink:href="img/sprite.svg#prev"></use></svg></button>',
+	nextArrow: '<button type="button" class="slick-next"><svg class="svg-icon"><use xlink:href="img/sprite.svg#next"></use></svg></button>',
+	responsive: [
+		{
+			breakpoint: 1200,
+			settings: {
+				slidesToShow: 3,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 576,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+	]
+});
+
 $('[data-bs-toggle="tab"]').on('shown.bs.tab', function (e) {
 	$('.slick-slider').slick('setPosition');
+});
+
+$(".countdown-time").countdowntimer({
+	dateAndTime: "2023/08/05 00:00:00",
+	labelsFormat: true,
+	displayFormat: "HMS",
+	// currentTime: true,
 });

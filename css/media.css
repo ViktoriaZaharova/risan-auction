@@ -72,6 +72,24 @@
   footer .nav-menu .nav-item {
     margin: 0 20px 0 0;
   }
+  .advantages-slider {
+    padding: 0 40px;
+  }
+  .slick-arrow {
+    width: 30px;
+  }
+  .slick-prev {
+    left: 0;
+  }
+  .slick-next {
+    right: 0;
+  }
+  .advantages-slider-item {
+    padding: 0;
+  }
+  .advantages {
+    margin: 70px 0;
+  }
 }
 @media only screen and (max-width: 1399px) {
   .navbar-toggler {
@@ -165,6 +183,46 @@
   .admin-contacts__item {
     margin: 0 0 10px;
   }
+  .advantages-slider-item {
+    font-size: 16px;
+  }
+  .advantages-slider-item__icon {
+    margin: 0 10px 0 0;
+  }
+  .advantages h2 {
+    margin: 0 0 30px;
+  }
+  .list-documents {
+    margin: 30px 0 0;
+  }
+  .product-wrapper .product-card-slider .slick-dots {
+    margin: 40px auto 0;
+  }
+  .prices-wrapper {
+    margin: 20px 0 30px;
+  }
+  .auction-information {
+    margin: 20px 0 30px;
+  }
+  .other-premises {
+    margin: 40px 0 30px;
+  }
+  .rates-item {
+    padding: 30px 40px;
+  }
+  .rates-item.active::before {
+    right: -30px;
+    width: 30px;
+  }
+  .displaySection::after {
+    margin: 0 15px 5px;
+  }
+  .periodDisplay {
+    font-size: 24px;
+  }
+  .numberDisplay, .displaySection {
+    font-size: 50px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .navbar-toggler {
@@ -201,7 +259,7 @@
   .best-deal .product-price sup {
     font-size: 20px;
   }
-  .slick-arrow {
+  .slider-nav .slick-arrow {
     width: 100px;
     height: 60px;
   }
@@ -301,6 +359,18 @@
   .my-auctions {
     margin: 0 0 60px;
   }
+  .auction-timer {
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .rates-item {
+    font-size: 20px;
+  }
+  .product-wrapper-v2 {
+    max-width: 532px;
+    margin: 0 auto;
+  }
 }
 @media only screen and (max-width: 992px) {
   .slider-nav {
@@ -365,6 +435,13 @@
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+  .product-wrapper {
+    padding: 40px;
+    border-radius: 30px;
+  }
+  .product-wrapper .product-card-slider {
+    margin: 0 auto 30px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .phone {
@@ -408,6 +485,22 @@
   }
   .mb-50 {
     margin-bottom: 30px;
+  }
+  .product-wrapper-v2 {
+    padding: 0;
+  }
+  .or {
+    font-size: 20px;
+    margin: 20px auto;
+  }
+  .action-rates-box {
+    max-width: none;
+  }
+  .periodDisplay {
+    font-size: 18px;
+  }
+  .numberDisplay, .displaySection {
+    font-size: 40px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -478,7 +571,7 @@
   .text-description {
     font-size: 18px;
   }
-  .slick-arrow {
+  .slider-nav .slick-arrow {
     width: 80px;
     height: 50px;
   }
@@ -567,6 +660,107 @@
     width: fit-content;
     margin: 0 auto;
   }
+  .product-wrapper .product-card__img {
+    height: 300px;
+  }
+  .product-section h1 {
+    font-size: 28px;
+  }
+  .product-wrapper {
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .prices-wrapper {
+    gap: 10px;
+  }
+  .prices-wrapper-item {
+    padding: 0 10px 0 0;
+  }
+  .product-wrapper .product-card-slider .slick-dots {
+    margin: 20px auto 0;
+  }
+  .modal-content {
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .form-code label {
+    width: 40px;
+    margin: 0 3px;
+  }
+  .form-code input {
+    font-size: 24px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  .modal-title {
+    font-size: 20px;
+    max-width: 250px;
+  }
+  .modal-header .btn-close {
+    width: 24px;
+    height: 24px;
+    padding: 6px;
+  }
+  .modal-header .box-text {
+    margin: 16px auto 0;
+  }
+  .form-code [type=submit] {
+    margin: 20px auto 0;
+  }
+  .modal-icon {
+    width: 60px;
+    height: 60px;
+  }
+  .numberDisplay, .displaySection {
+    font-size: 24px;
+  }
+  .auction-timer h3 {
+    margin: 0 auto 20px;
+  }
+  .rates-item {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    padding: 20px;
+    width: 100%;
+  }
+  .rates-item::before {
+    display: none;
+  }
+  .rates {
+    border-radius: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .product-wrapper-v2 {
+    padding: 0;
+  }
+  .product-wrapper-v2 .product-card-slider {
+    padding: 20px 10px;
+  }
+  .displaySection::after {
+    margin: 0 5px 3px;
+  }
+  .numberDisplay, .displaySection {
+    font-size: 16px;
+  }
+  .periodDisplay {
+    font-size: 12px;
+  }
+  .rates {
+    margin: 0 0 30px;
+  }
+  .rates-item p strong {
+    display: block;
+    width: 100%;
+    margin: 5px 0 0;
+  }
+  .auction-timer h3 {
+    font-size: 18px;
+  }
+  .auction-timer h3 svg {
+    margin: 0 10px 0 0;
+  }
 }
 @media only screen and (max-width: 480px) {
   .logo {
@@ -600,13 +794,22 @@
   .tooltip-box h3 {
     font-size: 14px;
   }
-  .slick-arrow {
+  .slider-nav .slick-arrow {
     padding: 10px 25px;
     height: 40px;
   }
-  .slick-arrow svg {
+  .slider-nav .slick-arrow svg {
     width: 100%;
     height: 100%;
+  }
+  .prices-wrapper-item {
+    width: 100%;
+    padding: 0;
+    border: none;
+  }
+  .prices-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 @media only screen and (max-width: 370px) {
