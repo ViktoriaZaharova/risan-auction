@@ -1158,6 +1158,13 @@
       -ms-flex: none;
           flex: none;
 }
+.form-entrance input[type=radio] {
+  width: auto;
+  height: auto;
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+}
 
 .btn-view-password {
   cursor: pointer;

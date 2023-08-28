@@ -660,6 +660,16 @@ a.color-accent svg {
   cursor: pointer;
 }
 
+input[type=radio] {
+  width: auto;
+  height: auto;
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  display: inline;
+  cursor: pointer;
+}
+
 .label-checkbox {
   position: relative;
   display: -webkit-box;
